@@ -1,14 +1,25 @@
+$break-xl: 1200px;
+$break-l: 992px;
+$break-s: 768px;
+$break-xs: 576px;
+
 .mainSection {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .title {
-  margin-bottom: 40px;
   font-size: 36px;
   line-height: 42px;
   font-family: Roboto Mono, monospace;
-  animation: typing 3.5s steps(40, end);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3.5s steps(30, end);
+  margin-bottom: 40px;
+}
+
+.blinkCaret {
+  animation: blink-caret .5s step-end infinite;
 }
 
 .description {
@@ -87,21 +98,80 @@
 }
 
 .chartWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 40px;
+}
+
+
+.progressContent {
+  width: 0;
+  background-color: #6d56c1;
+  transition: width .6s ease;
+}
+
+.progressRowWrapper {
+  display: flex;
+  overflow: hidden;
+  text-align: center;
+  background-color: #e9ecef;
+  border-radius: .25rem;
+
+  height: 6px;
+  margin-bottom: 30px;
 
 }
 
-.chartLeft {
+.progressTitleWrapper {
+  display: flex;
+  justify-content: space-between;
 
 }
 
-.chartRight {
+.progressTitleWrapper span {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-family: Inconsolata, monospace;
+  margin-bottom: 10px;
+}
+
+@media (min-width: $break-xs) {
+
+}
+
+@media (min-width: $break-s) {
+  .chartWrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (min-width: $break-l) {
+
+}
+
+@media (min-width: $break-xl) {
 
 }
 
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    opacity: 0
+  }
+  50% {
+    opacity: 1
+  }
 }
 

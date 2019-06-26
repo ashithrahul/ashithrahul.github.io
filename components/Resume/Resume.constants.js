@@ -25,3 +25,9 @@ export const RESUME = {
       role: 'Higher School Education',
     }],
 };
+
+export const GENERAL_SKILLS = [
+  { title: 'HTML5', value: '80%' }, { title: 'JS', value: '90%' },
+  { title: 'REACT', value: '90%' }, { title: 'redux', value: '75%' },
+  { title: 'php', value: '80%' }, { title: 'mysql', value: '60%' },
+  { title: 'css3', value: '60%' }, { title: 'git', value: '60%' }];

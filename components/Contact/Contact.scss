@@ -19,8 +19,14 @@ $break-xs: 576px;
   font-size: 36px;
   line-height: 42px;
   font-family: Roboto Mono, monospace;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3.5s steps(30, end);
 }
 
+.blinkCaret{
+  animation: blink-caret .5s step-end infinite;
+}
 
 .phoneWrapper {
   font-size: 16px;
@@ -173,4 +179,21 @@ $break-xs: 576px;
 
 @media (min-width: $break-xl) {
 
+}
+
+
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
+}
+
+@keyframes blink-caret {
+  from, to { opacity: 0 }
+  50% { opacity: 1 }
 }

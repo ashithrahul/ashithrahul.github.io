@@ -5,7 +5,7 @@ import resume from '../../assets/resume.pdf';
 
 const Hello = () => (
   <section id='hello' className={classNames(styles.mainSection, 'container')}>
-    <h2 className={styles.title}>Hi_</h2>
+    <h2 className={styles.title}>Hi<span className={styles.blinkCaret}>_</span></h2>
     <p className={styles.description}>I am a software engineer in Bengaluru, IND with a focus on JS + PHP.
       I currently work at Razorthink technology pvt as Front End Developer.where I create React Component.
       Previously,

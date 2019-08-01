@@ -16,7 +16,7 @@ const Form = () => (<form className={styles.contactFrom}>
 const Contact = () => (
   <section id='contact' className={styles.mainSection}>
     <div className={'container'}>
-        <p className={styles.contactTitle}>Hire me<span className={styles.blinkCaret}>_</span></p>
+        <p className={styles.contactTitle}>Contact me<span className={styles.blinkCaret}>_</span></p>
       <div className={styles.contactWrapper}>
         <div className={classNames(styles.phone, styles.contactBlock)}>
           <dl className={styles.phoneWrapper}>

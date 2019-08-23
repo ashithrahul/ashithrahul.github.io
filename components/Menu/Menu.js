@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import classNames from 'classnames';
-import { FaBars } from "react-icons/fa";
+import { FaBars } from 'react-icons/fa';
 import * as styles from './Menu.scss';
 
 const navbarItems = [{
@@ -32,14 +32,19 @@ const Menu = () => {
   }, []);
   return (
     <div className={classNames(styles.menu, { [styles.active]: menuActive })}>
-      <div className={'container'}>
-      <div className={classNames(styles.navWrapper, styles.navWrapperList)}>
-        <nav className={styles.nav}>
-          {
-            navbarItems.map((nav) => <span key={nav.label}><a href={nav.target}>{nav.label}</a> </span>)
+      <div className="container">
+        <div className={classNames(styles.navWrapper, styles.navWrapperList)}>
+          <nav className={styles.nav}>
+            {
+            navbarItems.map((nav) => (
+              <span key={nav.label}>
+                <a href={nav.target}>{nav.label}</a>
+                {' '}
+              </span>
+            ))
           }
-        </nav>
-      </div>
+          </nav>
+        </div>
         <div className={styles.navWrapper}>
           <button className={styles.hamburgerBtn}>
             <FaBars

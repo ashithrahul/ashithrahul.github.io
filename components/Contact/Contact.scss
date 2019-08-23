@@ -24,7 +24,7 @@ $break-xs: 576px;
   animation: typing 3.5s steps(30, end);
 }
 
-.blinkCaret{
+.blinkCaret {
   animation: blink-caret .5s step-end infinite;
 }
 
@@ -162,6 +162,40 @@ $break-xs: 576px;
 }
 
 
+.tooltip {
+  position: relative;
+}
+
+.tooltip:hover:after {
+  background: rgb(99, 93, 175);
+  border-radius: .5em;
+  color: #fff;
+  content: attr(data-tooltip);
+  display: block;
+  left: 88%;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: .3em 1em;
+  position: absolute;
+  text-shadow: 0 1px 0 #000;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.tooltip:hover:before {
+  border: solid;
+  border-color: transparent rgb(99, 93, 175);
+  border-width: .4em .4em .4em 0;
+  content: "";
+  display: block;
+  left: 87%;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 1;
+}
+
+
 @media (min-width: $break-xs) {
 
 }
@@ -182,7 +216,6 @@ $break-xs: 576px;
 }
 
 
-
 /* The typing effect */
 @keyframes typing {
   from {
@@ -194,6 +227,16 @@ $break-xs: 576px;
 }
 
 @keyframes blink-caret {
-  from, to { opacity: 0 }
-  50% { opacity: 1 }
+  from, to {
+    opacity: 0
+  }
+  50% {
+    opacity: 1
+  }
+}
+
+.isError {
+  border-color: #a70909;
+  background: #463f3f42;
+  opacity: 0.7;
 }

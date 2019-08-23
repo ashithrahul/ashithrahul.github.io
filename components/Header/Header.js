@@ -1,14 +1,14 @@
 import React from 'react';
+import { FaFacebookSquare, FaGithub, FaLinkedin } from 'react-icons/fa';
 import * as styles from './Header.scss';
-import dp from './../../assets/img_avatar2.jpg';
-import { FaFacebookSquare,FaGithub, FaLinkedin } from "react-icons/fa";
+import dp from '../../assets/img_avatar2.jpg';
 
 const Header = () => (
   <div className={styles.wrapper}>
-    <div className={'container'}>
+    <div className="container">
       <div className={styles.rowWrapper}>
         <div className={styles.profilePic}>
-            <img className={styles.dp} src={dp}/>
+          <img alt="ashith" className={styles.dp} src={dp} />
         </div>
         <div className={styles.profileDescription}>
           <p className={styles.name}>Ashith Rahul</p>
@@ -27,14 +27,14 @@ const Header = () => (
 
           </div>
           <div className={styles.socials}>
-            <a href={'https://github.com/ashithrahul'}>
-              <FaGithub/>
+            <a href="https://github.com/ashithrahul">
+              <FaGithub />
             </a>
-            <a href={'https://www.linkedin.com/in/ashith-rahul-3026b3104'}>
-              <FaLinkedin/>
+            <a href="https://www.linkedin.com/in/ashith-rahul-3026b3104">
+              <FaLinkedin />
             </a>
-            <a href={'https://www.facebook.com/AshithRahulNR'}>
-              <FaFacebookSquare/>
+            <a href="https://www.facebook.com/AshithRahulNR">
+              <FaFacebookSquare />
             </a>
 
           </div>

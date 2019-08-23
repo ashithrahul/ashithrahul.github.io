@@ -9,17 +9,11 @@ $break-xs: 576px;
 }
 
 .title {
+  margin-bottom: 40px;
   font-size: 36px;
   line-height: 42px;
   font-family: Roboto Mono, monospace;
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3.5s steps(30, end);
-  margin-bottom: 40px;
-}
-
-.blinkCaret {
-  animation: blink-caret .5s step-end infinite;
+  animation: typing 3.5s steps(40, end);
 }
 
 .description {
@@ -116,7 +110,6 @@ $break-xs: 576px;
   text-align: center;
   background-color: #e9ecef;
   border-radius: .25rem;
-
   height: 6px;
   margin-bottom: 30px;
 

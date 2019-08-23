@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import classNames from 'classnames';
-import { GENERAL_SKILLS, RESUME } from './Resume.constants';
+import LazyLoad, { lazyload } from 'react-lazyload';
+import { GENERAL_SKILLS, GENERAL_SKILLS_INITIAL, RESUME } from './Resume.constants';
 import * as styles from './Resume.scss';
 
 const Progression = ({ skill }) => (<div>
@@ -16,14 +17,20 @@ const Progression = ({ skill }) => (<div>
 </div>);
 
 
-const Chart = () => (<div className={styles.chartContainer}>
-  <h3 className={styles.chartTitle}>general skills</h3>
-  <div className={styles.chartWrapper}>
-    {GENERAL_SKILLS.map((skill) => (
-      <Progression key={skill.title} skill={skill} />
-    ))}
-  </div>
-</div>);
+const Chart = () => {
+  const [skills, updateSkills] = useState(GENERAL_SKILLS_INITIAL);
+  useEffect(() => {
+    updateSkills(GENERAL_SKILLS);
+  }, []);
+  return (<div className={styles.chartContainer}>
+    <h3 className={styles.chartTitle}>general skills</h3>
+    <div className={styles.chartWrapper}>
+      {skills.map((skill) => (
+        <Progression key={skill.title} skill={skill} />
+      ))}
+    </div>
+  </div>);
+};
 
 const Resume = () => (
   <section id='resume' className={classNames(styles.mainSection, 'container')}>
@@ -48,8 +55,13 @@ const Resume = () => (
         </div>
       ))
     }
-    <Chart />
+    <LazyLoad offset={-30}>
+      <Chart />
+    </LazyLoad>
   </section>
 );
 
-export default Resume;
+export default lazyload({
+  once: true,
+  offset: -30,
+})(Resume);

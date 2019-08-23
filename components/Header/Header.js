@@ -15,8 +15,8 @@ const Header = () => (
           <p className={styles.designation}>Full stack developer</p>
           <div className={styles.profileDetails}>
             <dl className={styles.personalDetails}>
-              <dt>Age:</dt>
-              <dd>25</dd>
+              {/*<dt>Age:</dt>*/}
+              {/*<dd>25</dd>*/}
               <dt>Phone:</dt>
               <dd><a href="tel:+91 9961752623">+91 9961752623</a></dd>
               <dt>Email:</dt>

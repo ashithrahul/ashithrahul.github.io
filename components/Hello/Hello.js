@@ -10,12 +10,11 @@ Hi
       <span className={styles.blinkCaret}>_</span>
     </h2>
     <p className={styles.description}>
-I am a software engineer in Bengaluru, IND with a focus on JS + PHP.
-      I currently work at Razorthink technology pvt as
-      Front End Developer.where
-      I create React Component.
-      Previously,
-      I worked at Brahma infotek pvt, where I Severed member of Programming group of PHP team.
+      I am a software developer based in
+      Bengaluru, IND with a focus on JS and PHP.
+      I currently work at Razorthink Technologies Pvt as a Front end developer,
+      where I mainly deal with creating components using ReactJS. Previously,
+      I worked at Brahma Infotek Pvt, where I served as a member of the programming group of PHP team.
     </p>
     <p className={styles.description}>
 I’m interested in the following:

@@ -88,3 +88,20 @@ hr {
   border: 0;
   border-top: 1px solid rgba(0,0,0,.1);
 }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+li {
+  width:60px;
+  margin-bottom:10px;
+  background-color:red;
+}
+
+
+
+

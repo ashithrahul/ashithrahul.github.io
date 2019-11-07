@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
   entry: './src/index.js',
   module: {
@@ -47,17 +48,18 @@ module.exports = {
       },
       inject: true,
       chunksSortMode: 'dependency',
-    })
+    }),
   ],
   resolve: {
     extensions: ['*', '.js', '.jsx'],
   },
   output: {
-    path: __dirname + '/dist',
+    path: `${__dirname}/dist`,
     publicPath: '/',
     filename: 'bundle.js',
   },
   devServer: {
     contentBase: './dist',
+    historyApiFallback: true,
   },
 };

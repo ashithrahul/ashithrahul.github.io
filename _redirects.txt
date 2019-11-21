@@ -1,2 +1,2 @@
-/wedding/*   /wedding/index2.html   200
+/wedding/*   /wedding   200
 /*  /index.html   200

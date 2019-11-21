@@ -2,66 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a245875b-dfa7-43e7-a77a-3c3ef3e242d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wedding/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/css/icomoon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/css/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/css/theme-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/bg-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/bg-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/bg-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/bg-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/featured/featured-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/featured/featured-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/featured/featured-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/featured/featured-04 (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/featured/featured-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/featured/featured-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/featured/featured-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/gallery/gallery-image-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/gallery/gallery-image-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/gallery/gallery-image-03 (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/gallery/gallery-image-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/gallery/gallery-image-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/gallery/gallery-image-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/gallery/gallery-image-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/gallery/gallery-image-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/gallery/gallery-image-08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/gallery/gallery-image-09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/pic-bride.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/pic-groom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/story/story-img-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/story/story-img-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/story/story-img-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/img/story/story-img-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/js/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/js/jquery.nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/js/jquery.sticky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/js/simplyCountdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/js/theme-main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/libs/TimeCircles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/libs/TimeCircles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/libs/gallery-grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/libs/jquery.magnific-popup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/libs/jquery.stellar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/libs/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/libs/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/libs/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/libs/owl.theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/libs/rolling.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wedding/libs/validator.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_redirects.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_redirects.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_redirects" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img_avatar2-09bdb6e2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img_bg_main-5172152c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/resume-65240829.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/runtime~main.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors~main.bundle.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

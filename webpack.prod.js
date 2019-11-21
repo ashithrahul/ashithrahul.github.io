@@ -65,7 +65,8 @@ module.exports = {
       chunksSortMode: 'dependency',
     }),
     new CopyWebpackPlugin([
-      { from: 'index.html', to: './dist/index.html' },
+      { from: 'index2.html', to: './index2.html' },
+      { from: '_redirects.txt', to: './_redirects', toType: 'file', },
     ], { copyUnmodified: true }),
   ],
   optimization: {

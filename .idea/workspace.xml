@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a245875b-dfa7-43e7-a77a-3c3ef3e242d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wedding/media/song2.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_redirects.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_redirects.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_redirects" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img_avatar2-09bdb6e2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img_bg_main-5172152c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/resume-65240829.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/runtime~main.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vendors~main.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedding/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/wedding/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +27,7 @@
   <component name="ProjectId" id="1SaseiGeRbIfM2xSBVeAwUlrsxg" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wedding" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wedding/media" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -49,12 +42,13 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/wedding" />
-      <recent name="$PROJECT_DIR$" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wedding/media" />
+      <recent name="$PROJECT_DIR$/wedding" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
@@ -107,6 +101,8 @@
       <workItem from="1572071954663" duration="4246000" />
       <workItem from="1573111792824" duration="42000" />
       <workItem from="1573111991907" duration="104000" />
+      <workItem from="1574329964777" duration="454000" />
+      <workItem from="1575559963764" duration="68000" />
     </task>
     <servers />
   </component>

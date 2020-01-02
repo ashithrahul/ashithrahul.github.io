@@ -153,9 +153,10 @@ section.img-bg-4{
 	background-size:cover;
 }
 section.img-bg-5{
-	background:url(../img/bg-5.jpg) no-repeat;
+	background:url(../img/bg-5-t.jpg) no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
+	background-position: 0% 50px;
 }
 
 /* ==================================================================
@@ -205,7 +206,7 @@ section.img-bg-5{
 	3. Section - Home (banner)
 ================================================================== */
 section#home{
-	background:url(../img/bg-1.jpg) no-repeat;
+	background:url(../img/bg1-blur.jpg) no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
 	text-align:center;
@@ -292,6 +293,7 @@ ul.names li{
 	}
 	section#home {
 		height: auto;
+		background-position: 39% 50%;
 	}
 	.title{
 		margin-bottom:30px;
@@ -777,6 +779,11 @@ section#footer .copyright {
 
     section {
 	    padding: 60px 0px;
+		background-position: 54% 0% !important;
+		background-attachment: initial !important;;
+	}
+	section.img-bg-5{
+
 	}
 
     ul.timeline:before {

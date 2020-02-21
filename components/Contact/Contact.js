@@ -95,10 +95,10 @@ const Contact = () => (
           </dl>
           <div className={styles.contactSocial}>
             <ul>
-              <li><a href="https://www.facebook.com/AshithRahulNR">Facebook</a></li>
-              <li><a href="https://www.linkedin.com/in/ashith-rahul-3026b3104">Linkedin</a></li>
-              <li><a href="https://github.com/ashithrahul">GitHub</a></li>
-              <li><a href={null}>Bitbucket</a></li>
+              <li><a target="_blank" href="https://www.facebook.com/AshithRahulNR">Facebook</a></li>
+              <li><a target="_blank" href="https://www.linkedin.com/in/ashith-rahul-3026b3104">Linkedin</a></li>
+              <li><a target="_blank" href="https://github.com/ashithrahul">GitHub</a></li>
+              <li><a target="_blank" href="https://stackoverflow.com/users/4947801/ashith">Stack Overflow</a></li>
             </ul>
           </div>
         </div>

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a245875b-dfa7-43e7-a77a-3c3ef3e242d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/components/Resume/Resume.constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Resume/Resume.constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Contact/Contact.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +108,7 @@
       <workItem from="1577699079118" duration="8252000" />
       <workItem from="1577965169394" duration="1075000" />
       <workItem from="1577984934048" duration="1453000" />
-      <workItem from="1582259733261" duration="345000" />
+      <workItem from="1582259733261" duration="538000" />
     </task>
     <servers />
   </component>

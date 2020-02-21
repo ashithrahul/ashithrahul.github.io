@@ -95,7 +95,7 @@ const Contact = () => (
           </dl>
           <div className={styles.contactSocial}>
             <ul>
-              <li><a href="https://github.com/ashithrahul">Facebook</a></li>
+              <li><a href="https://www.facebook.com/AshithRahulNR">Facebook</a></li>
               <li><a href="https://www.linkedin.com/in/ashith-rahul-3026b3104">Linkedin</a></li>
               <li><a href="https://github.com/ashithrahul">GitHub</a></li>
               <li><a href={null}>Bitbucket</a></li>

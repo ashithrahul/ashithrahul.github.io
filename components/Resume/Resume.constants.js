@@ -27,12 +27,12 @@ export const RESUME = {
 
 export const GENERAL_SKILLS = [
   { title: 'HTML5', value: '80%' }, { title: 'JS', value: '90%' },
-  { title: 'REACT', value: '90%' }, { title: 'redux', value: '75%' },
-  { title: 'php', value: '80%' }, { title: 'mysql', value: '60%' },
-  { title: 'css3', value: '60%' }, { title: 'git', value: '60%' }];
+  { title: 'REACT', value: '90%' }, { title: 'redux', value: '85%' },
+  { title: 'php', value: '75%' }, { title: 'mysql', value: '60%' },
+  { title: 'css3', value: '80%' }, { title: 'node', value: '60%' }];
 
 export const GENERAL_SKILLS_INITIAL = [
   { title: 'HTML5', value: '0%' }, { title: 'JS', value: '0%' },
   { title: 'REACT', value: '0%' }, { title: 'redux', value: '0%' },
   { title: 'php', value: '0%' }, { title: 'mysql', value: '0%' },
-  { title: 'css3', value: '0%' }, { title: 'git', value: '0%' }];
+  { title: 'css3', value: '0%' }, { title: 'node', value: '0%' }];

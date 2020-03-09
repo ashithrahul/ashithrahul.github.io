@@ -1,6 +1,6 @@
 export const RESUME = {
   'EMPLOYMENT': [{
-    title: 'Razorthink Technology Pvt',
+    title: 'Razorthink Technology',
     year: '2017 - now',
     role: 'Front End developer, Programmer in JS, ESNext, React, Redux, Redux-saga, Webpack, HTML5 and CSS3',
   }, {

@@ -12,7 +12,7 @@ Hi
     <p className={styles.description}>
       I am a software developer based in
       Bengaluru, IND with a focus on JS and PHP.
-      I currently work at Razorthink Technologies Pvt as a Front end developer,
+      I currently work at Razorthink Technologiesas a Front end developer,
       where I mainly deal with creating components using ReactJS. Previously,
       I worked at Brahma Infotek Pvt, where I served as a member of the programming group of PHP team.
     </p>

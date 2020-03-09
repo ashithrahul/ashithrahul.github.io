@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a245875b-dfa7-43e7-a77a-3c3ef3e242d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Contact/Contact.js" afterDir="false" />
-    </list>
+    <list default="true" id="a245875b-dfa7-43e7-a77a-3c3ef3e242d3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +23,7 @@
   <component name="ProjectId" id="1SaseiGeRbIfM2xSBVeAwUlrsxg" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wedding/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -108,7 +105,7 @@
       <workItem from="1577699079118" duration="8252000" />
       <workItem from="1577965169394" duration="1075000" />
       <workItem from="1577984934048" duration="1453000" />
-      <workItem from="1582259733261" duration="538000" />
+      <workItem from="1582259733261" duration="574000" />
     </task>
     <servers />
   </component>
